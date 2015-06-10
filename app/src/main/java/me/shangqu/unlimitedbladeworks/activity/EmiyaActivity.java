@@ -1,9 +1,11 @@
-package me.shangqu.unlimitedbladeworks;
+package me.shangqu.unlimitedbladeworks.activity;
 
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+
+import me.shangqu.unlimitedbladeworks.R;
 
 
 public class EmiyaActivity extends ActionBarActivity {
