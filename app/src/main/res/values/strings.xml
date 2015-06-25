@@ -3,4 +3,6 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+
+    <string name="account_hint">昵称/手机号/邮箱</string>
 </resources>

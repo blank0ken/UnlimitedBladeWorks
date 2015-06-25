@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_fff4f4f4">#fff4f4f4</color>
+    <color name="transparent">#00000000</color>
+    <color name="official_text0">#424242</color>
+    <color name="official_text2">#727272</color>
+    <color name="official_text4">#999999</color>
+    <color name="official_text42">#424242</color>
+    <color name="official_text72">#727272</color>
+    <color name="official_text99">#999999</color>
+</resources>

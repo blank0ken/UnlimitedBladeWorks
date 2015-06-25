@@ -1,4 +1,4 @@
-package me.shangqu.unlimitedbladeworks.tools;
+package me.shangqu.unlimitedbladeworks.widget;
 
 import android.text.Editable;
 import android.text.InputFilter;
@@ -11,7 +11,7 @@ import android.widget.EditText;
 
 import java.util.LinkedList;
 
-public class BankCardTextWater implements TextWatcher {
+public class BankCardTextWatcher implements TextWatcher {
 
     private EditText mEt;
     private Button mBtn;
@@ -20,7 +20,7 @@ public class BankCardTextWater implements TextWatcher {
 
     private InputFilter mFilter;
 
-    public BankCardTextWater(Button mBtn, EditText mEt) {
+    public BankCardTextWatcher(Button mBtn, EditText mEt) {
         this.mBtn = mBtn;
         this.mEt = mEt;
         mFilter = new InputFilter() {

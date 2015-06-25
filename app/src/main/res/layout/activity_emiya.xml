@@ -9,9 +9,16 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".EmiyaActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/hello_world"/>
+    <me.shangqu.unlimitedbladeworks.widget.MGAutoCompleteTextView
+        android:id="@+id/login_input_autocomplete"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="14dp"
+        android:background="@color/transparent"
+        android:singleLine="true"
+        android:textColor="@color/official_text2"
+        android:textColorHint="@color/official_text4"
+        android:textSize="16sp"/>
 
 </RelativeLayout>

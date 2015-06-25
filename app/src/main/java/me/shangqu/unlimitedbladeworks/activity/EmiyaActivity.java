@@ -4,16 +4,28 @@ import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 import me.shangqu.unlimitedbladeworks.R;
+import me.shangqu.unlimitedbladeworks.widget.MGAutoCompleteTextView;
 
 
 public class EmiyaActivity extends ActionBarActivity {
+
+
+    private MGAutoCompleteTextView mUname;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_emiya);
+        setupViews();
+    }
+
+    private void setupViews() {
+        mUname = (MGAutoCompleteTextView) findViewById(R.id.login_input_autocomplete);
+        mUname.setNeedAutoComplete(true);
+        mUname.setHint(getString(R.string.account_hint));
     }
 
     @Override
